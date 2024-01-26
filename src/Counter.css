@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin-top: 2rem;
+    text-align: center;
+    height: 10rem;
+}
+
+.counter-box {
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 20%;
+    padding: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+button{
+    background-color: azure;
+}
