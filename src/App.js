@@ -7,6 +7,12 @@ import Service from './Service'
 import Counter from './Counter'
 import Effect from './Effect'
 import Reducer from './Reducer'
+import Callbacks from './Callbacks'
+import Ref from './Ref'
+import Sec from './Sec'
+import Memo from './Memo'
+
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -22,6 +28,10 @@ export default function App() {
       <div><Counter /></div>
       <Effect/>
       <Reducer/>
+      <Callbacks/>
+      <Ref/>
+      <Sec/>
+      <Memo/>
     </BrowserRouter>
 
   )

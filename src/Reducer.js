@@ -21,4 +21,3 @@ return(
         <button onClick={()=>dispatch({type:'DECREMENT'})}>Sub</button>
     </div>
 )}
-
